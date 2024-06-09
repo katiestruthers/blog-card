@@ -11,7 +11,7 @@ export const BlogCard = () => {
           <h2 className="text-lg font-semibold">Top 5 Living Room Inspirations</h2>
         </header>
         <p className="text-base text-neutral-600 font-medium">Curated vibrants colors for your living, make it pop & calm in the same time.</p>
-        <button className="text-indigo-700 text-base font-medium">Read More <GoArrowRight className="GoArrowRight" /></button>
+        <button className="text-indigo-700 text-base font-medium" autoFocus>Read more <GoArrowRight className="GoArrowRight" /></button>
       </div>
     </article>
   )
