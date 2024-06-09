@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import blogImage from "../img/spacejoy-YqFz7UMm8qE-unsplash.jpg";
 import { GoArrowRight } from "react-icons/go";
 
@@ -11,7 +12,9 @@ export const BlogCard = () => {
           <h2 className="text-lg font-semibold">Top 5 Living Room Inspirations</h2>
         </header>
         <p className="text-base text-neutral-600 font-medium">Curated vibrants colors for your living, make it pop & calm in the same time.</p>
-        <button className="text-indigo-700 text-base font-medium" autoFocus>Read more <GoArrowRight className="GoArrowRight" /></button>
+        <a href="#">
+          <button className="text-indigo-700 text-base font-medium" type="button">Read more <GoArrowRight className="GoArrowRight" /></button>
+        </a>
       </div>
     </article>
   )
